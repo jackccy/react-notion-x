@@ -1,6 +1,7 @@
 {
   "name": "@jackrepo/react-notion-x",
   "version": "6.16.8",
+  "private": false,
   "type": "module",
   "description": "Fast and accurate React renderer for Notion.",
   "repository": "@jackrepo/react-notion-x",
@@ -51,5 +52,5 @@
     "react": ">=16",
     "react-dom": ">=16"
   },
-  "gitHead": "08ae19994cdfb708dc179731afa24a622045a66b"
+  "gitHead": "f813a62c93c0308f122a6f21e7ec11418722dd73"
 }
