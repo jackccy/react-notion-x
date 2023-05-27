@@ -1,6 +1,7 @@
 {
   "name": "@jackrepo/notion-client",
   "version": "6.16.6",
+  "private": false,
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
   "repository": "@jackrepo/react-notion-x",
