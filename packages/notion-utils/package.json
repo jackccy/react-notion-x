@@ -1,5 +1,5 @@
 {
-  "name": "notion-utils",
+  "name": "@jackrepo/notion-utils",
   "version": "6.16.3",
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
