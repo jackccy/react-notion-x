@@ -1,7 +1,6 @@
 {
   "name": "@jackrepo/notion-utils",
   "version": "6.16.10",
-  "private": false,
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
   "repository": "@jackrepo/react-notion-x",
@@ -10,6 +9,9 @@
   "main": "./build/index.js",
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./build/index.d.ts",
@@ -46,5 +48,5 @@
       "--experimental-specifier-resolution=node"
     ]
   },
-  "gitHead": "01dd6465df813c5dd0bfd8d79c1b25764be435b0"
+  "gitHead": "57fe4e9e92608e6d0c32cb268fc5fa99fcee709a"
 }

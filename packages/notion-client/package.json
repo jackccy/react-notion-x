@@ -1,7 +1,6 @@
 {
   "name": "@jackrepo/notion-client",
   "version": "6.16.10",
-  "private": false,
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
   "repository": "@jackrepo/react-notion-x",
@@ -11,6 +10,9 @@
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "build"
   ],
@@ -39,5 +41,5 @@
       "--experimental-specifier-resolution=node"
     ]
   },
-  "gitHead": "01dd6465df813c5dd0bfd8d79c1b25764be435b0"
+  "gitHead": "57fe4e9e92608e6d0c32cb268fc5fa99fcee709a"
 }

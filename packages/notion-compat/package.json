@@ -1,7 +1,6 @@
 {
   "name": "@jackrepo/notion-compat",
   "version": "6.16.10",
-  "private": false,
   "type": "module",
   "description": "Compatibility layer between the official Notion API and unofficial private API.",
   "repository": "@jackrepo/react-notion-x",
@@ -11,6 +10,9 @@
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "build"
   ],
