@@ -1,6 +1,6 @@
 {
   "name": "@jackrepo/react-notion-x",
-  "version": "6.16.8",
+  "version": "6.16.9",
   "private": false,
   "type": "module",
   "description": "Fast and accurate React renderer for Notion.",
